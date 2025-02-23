@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+/* Importamos una fuente desde Google Fonts para usar en la página */
+
+/* Lo uso  para que los márgenes y rellenos no causen problemas visuales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Esta es la configuracion del fondo, color de texto y fuente de la página */
+body {
+    background-color: white; /* Fondo blanco */
+    color: white; /* Color de texto blanco */
+    font-family: 'Poppins', sans-serif; /* Fuente elegante */
+    padding: 20px; /* Espaciado alrededor del contenido */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilos del encabezado */
+header {
+    background: linear-gradient(135deg, #738a9a, #ccdbe2); /* Fondo con degradado */
+    color: white;
+    display: flex; /* Coloca el contenido en fila */
+    align-items: center; /* Alinea el contenido verticalmente */
+    justify-content: space-around; /* Distribuye los elementos con espacio entre ellos */
+    padding: 20px;
+    border-radius: 20px; /* Bordes redondeados */
+    margin-bottom: 30px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5); /* Sombra para dar efecto elevado */
+    border-style: groove; /* Estilo de borde decorativo */
+}
+
+/* Estilos del texto dentro del header */
+.texto-header {
+    max-width: 60%;
+}
+
+/* Estilos del título dentro del header */
+header h1 {
+    font-size: 42px;
+    font-weight: 700; /* Texto grueso */
+}
+
+/* Estilos del párrafo dentro del header */
+header p {
+    font-size: 18px;
+    font-weight: 300; /* Texto más delgado */
+}
+
+/* Estilos de las imágenes en la página */
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px; /* Esquinas redondeadas */
+    margin-top: 10px;
+    border: 3px solid orange; /* Borde con color */
+    display: block; /* Para que se comporte como un bloque */
+    margin-left: auto;
+    margin-right: auto; /* Centrar la imagen */
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    background: linear-gradient(135deg, #738a9a, #ccdbe2);
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Quitamos los estilos de lista y organizamos los elementos en línea */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre elementos */
+    padding: 0;
+}
+
+/* Hace que los elementos del menú sean en línea */
+nav ul li {
+    display: inline;
+}
+
+/* Estilos de los enlaces en la barra de navegación */
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out; /* Suaviza los cambios de color */
+}
+
+/* Cambia de color cuando el mouse pasa por encima */
+nav a:hover {
+    background-color: #738a9a;
+    color: #1f4068;
+}
+
+/* Caja de diseño con fondo y sombra */
+.diseño_1 {
+    background: linear-gradient(135deg, #738a9a, #ccdbe2);
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+    max-width: 700px;
+    text-align: start;
+}
+
+/* Estilos de los títulos */
+h2 {
+    color: black;
+    font-size: 28px;
+    margin-bottom: 10px;
+    border-left: 5px solid orange; /* Barra decorativa a la izquierda */
+    padding-left: 10px;
+}
+
+/* Estilos generales de listas */
+ul {
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 10px;
+    list-style: none;
+}
+
+/* Estilos de los elementos de la lista */
+ul li {
+    background: orange; /* Color de fondo */
+    padding: 12px;
+    margin: 5px 0;
+    border-radius: 8px; /* Bordes redondeados */
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Cambia el color cuando el mouse pasa por encima */
+ul li:hover {
+    background: #738a9a;
+    color: #0b132b;
+}
+
+/* Estilos generales de los enlaces */
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Cambia de color cuando el mouse pasa por encima */
+a:hover {
+    color: #738a9a;
+}
+
+/* Estilos de los botones de beneficios y de quipammiento basico */
+button {
+    background: #738a9a;
+    color: #0b132b;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Estilos del pie de página */
+footer {
+    background: linear-gradient(135deg, #738a9a, #ccdbe2);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    border-top: 4px solid orange; /* Línea decorativa arriba */
+}
+
+/* Estilos del texto dentro del footer */
+footer p {
+    font-size: 16px;
+}
